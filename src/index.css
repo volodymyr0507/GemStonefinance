@@ -1,0 +1,163 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* .makeStyles-paper-11, */
+/* .makeStyles-paper-11 h2, */
+/* .MuiTypography-body1,
+.MuiPaper-root, */
+h2 {
+  color: #f9a43b !important;
+}
+
+body {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', cursive !important;
+  text-transform: uppercase;
+  color: #f9a43b;
+}
+
+.MuiToolbar-regular {
+  color: #d6efff;
+}
+
+.MuiButton-containedPrimary,
+.MuiButton-containedPrimary:hover,
+.MuiListItem-button:hover,
+.MuiButtonBase-root:hover {
+  color: #fff !important;
+}
+
+code {
+  font-family: 'Rubik', monospace;
+}
+
+.wallet-button {
+  color: white;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 1.2rem !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  text-transform: none !important;
+}
+.wallet-button:hover {
+  color: #f9a43b !important;
+}
+
+.navLink {
+  color: white !important;
+}
+
+.navLink:hover {
+  color: #f9a43b !important;
+}
+
+.shinyButton {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  color: #f9a43b !important;
+  box-shadow: 0px 0px 5px 0px rgba(26, 107, 158, 1);
+}
+
+.shinyButtonDisabled {
+  border-radius: 15px;
+
+  color: rgb(214, 52, 52) !important;
+  box-shadow: 0px 0px 5px 0px rgb(228, 93, 93);
+}
+
+.shinyButton:hover {
+  background-color: #f9a43b !important;
+  color: #f7f3ef !important;
+}
+
+.shinyButtonSecondary {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  background-color: #f9a43b !important;
+  color: #f7eff2 !important;
+  /* box-shadow: 0px 0px 5px 0px rgba(26, 107, 158, 1); */
+}
+
+.shinyButtonDisabledSecondary {
+  border-radius: 15px;
+
+  color: grey !important;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.shinyButtonSecondary:hover {
+  background-color: rgb(216, 139, 45)26 !important;
+  color: #d3c7b826 !important;
+  box-shadow: 0px 0px 5px 0px rgba(26, 107, 158, 1);
+}
+
+.navTokenPrice {
+  padding-top: 5px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.navTokenIcon {
+  height: 30px !important;
+  width: 30px !important;
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+}
+
+.ant {
+  background-image: url('/GEM.png');
+}
+
+.bshare {
+  background-image: url('/GBOND.png');
+}
+
+.btc {
+  background-image: url('/GSHARE.png');
+}

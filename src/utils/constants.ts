@@ -1,0 +1,11 @@
+export const GEM_TICKER = 'GEM';
+export const GSHARE_TICKER = 'GSHARE';
+export const GBOND_TICKER = 'GBOND';
+export const MATIC_TICKER = 'MATIC';
+export const WMATIC_TICKER = 'WMATIC';
+export const ETH_TICKER = 'ETH';
+export const USDC_TICKER = 'USDC';
+
+export const SPOOKY_ROUTER_ADDR = '0x145677FC4d9b8F19B5D56d1820c48e0443049a30';
+export const ZAPPER_ROUTER_ADDR = '0x7Ad63cCf1025C0b4Ee9BE2c6ccBB6126F775F371';
+export const TAX_OFFICE_ADDR = '0xaC61169C07725fc443A72a4e8df405ad451f5e5F';
